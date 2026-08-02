@@ -594,11 +594,11 @@ We're not claiming all five are equally strong; SDG 3 and SDG 11 are the ones we
 | Name | Role | GitHub | LinkedIn |
 |---|---|---|---|
 | SANSKRUTI CHANEKAR | *[Add role]* | [@add-handle](#) | [Add profile](#) |
-| *[ANWESHA DHOTE]* | *[Add role]* | [@add-handle](#) | [Add profile](#) |
-| *[GAURI JADHAV]* | *[Add role]* | [@add-handle](#) | [Add profile](#) |
-| *[SAUMYA SINHA]* | *[Add role]* | [@add-handle](#) | [Add profile](#) |
-| *[SHIKHA KHUSHWAHA]* | *[Add role]* | [@add-handle](#) | [Add profile](#) |
-| *[DIPIKA ANAND]* | *[Add role]* | [@add-handle](#) | [Add profile](#) |
+| *ANWESHA DHOTE* | *[Add role]* | [@add-handle](#) | [Add profile](#) |
+| *GAURI JADHAV* | *[Add role]* | [@add-handle](#) | [Add profile](#) |
+| *SAUMYA SINHA* | *[Add role]* | [@add-handle](#) | [Add profile](#) |
+| *SHIKHA KHUSHWAHA* | *[Add role]* | [@add-handle](#) | [Add profile](#) |
+| *DIPIKA ANAND* | *[Add role]* | [@add-handle](#) | [Add profile](#) |
 
 ## 🤝 Contributing
 

@@ -589,16 +589,14 @@ We're not claiming all five are equally strong; SDG 3 and SDG 11 are the ones we
 
 ## 👥 Team
 
-| Name | Reg No | Roles| GitHub | LinkedIn |
-|---|---|---|---|
-| SANSKRUTI CHANEKAR |  25BAI10603 |*[AI Surge Detection]* | [https://github.com/caliancodess20/](#) | [https://www.linkedin.com/in/sanskruti-chanekar-b5b7243b9](#) |
-| *ANWESHA DHOTE* |  25BAI10996 |*[QR & Stole System Integration]* | [https://github.com/anweshabuilds25](#) | [https://www.linkedin.com/in/anwesha-dhote-8176a13b9/](#) |
-| *GAURI JADHAV* |   25BCE10832 |*[Template design,Content Research]* | [https://github.com/jadhav25bce10832-gbj](#) | [https://www.linkedin.com/in/
-gauri-jadhav-110a493b8](#) |
-| *SAUMYA SINHA* |  25BAI11388 |*[Research, UX & Pitch]* | [https://github.com/saumya25bai11388-sys](#) | [[https://www.linkedin.com/in/saumya-sinha-3bb4933ba](#) |
-| *SHIKHA KHUSHWAHA* | 25BCE11243 |*[Staff & Emergency Dashboards]* | https://github.com/ShikhaKushwaha0005](#) | [https://www.linkedin.com/in/shikha-kushwaha-a71977391/](#) |
-| *DIPIKA ANAND* |  25BCE10703|*[Research and PPT ]* | [https://github.com/DipikaAnand8](#) | [https://www.linkedin.com/in/dipika-anand-b98316396/](#) |
-
+| Name | Reg No | Role | GitHub | LinkedIn |
+|---|---|---|---|---|
+| Sanskruti Chanekar | 25BAI10603 | AI Surge Detection | [@caliancodess20](https://github.com/caliancodess20/) | [Profile](https://www.linkedin.com/in/sanskruti-chanekar-b5b7243b9) |
+| Anwesha Dhote | 25BAI10996 | QR & Stole System Integration | [@anweshabuilds25](https://github.com/anweshabuilds25) | [Profile](https://www.linkedin.com/in/anwesha-dhote-8176a13b9/) |
+| Gauri Jadhav | 25BCE10832 | Template Design, Content Research | [@jadhav25bce10832-gbj](https://github.com/jadhav25bce10832-gbj) | [Profile](https://www.linkedin.com/in/gauri-jadhav-110a493b8) |
+| Saumya Sinha | 25BAI11388 | Research, UX & Pitch | [@saumya25bai11388-sys](https://github.com/saumya25bai11388-sys) | [Profile](https://www.linkedin.com/in/saumya-sinha-3bb4933ba) |
+| Shikha Khushwaha | 25BCE11243 | Staff & Emergency Dashboards | [@ShikhaKushwaha0005](https://github.com/ShikhaKushwaha0005) | [Profile](https://www.linkedin.com/in/shikha-kushwaha-a71977391/) |
+| Dipika Anand | 25BCE10703 | Research and PPT | [@DipikaAnand8](https://github.com/DipikaAnand8) | [Profile](https://www.linkedin.com/in/dipika-anand-b98316396/) |
 ## 🤝 Contributing
 
 1. Fork the repo and create a branch: `git checkout -b feature/your-feature`

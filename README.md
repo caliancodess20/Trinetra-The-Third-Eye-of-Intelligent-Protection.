@@ -593,12 +593,12 @@ We're not claiming all five are equally strong; SDG 3 and SDG 11 are the ones we
 
 | Name | Role | GitHub | LinkedIn |
 |---|---|---|---|
-| SANSKRUTI CHANEKAR | *[Add role]* | [@add-handle](#) | [Add profile](#) |
-| *ANWESHA DHOTE* | *[Add role]* | [@add-handle](#) | [Add profile](#) |
-| *GAURI JADHAV* | *[Add role]* | [@add-handle](#) | [Add profile](#) |
-| *SAUMYA SINHA* | *[Add role]* | [@add-handle](#) | [Add profile](#) |
-| *SHIKHA KHUSHWAHA* | *[Add role]* | [@add-handle](#) | [Add profile](#) |
-| *DIPIKA ANAND* | *[Add role]* | [@add-handle](#) | [Add profile](#) |
+| SANSKRUTI CHANEKAR | *[AI / Surge Detection]* | [@add-handle](#) | [Add profile](#) |
+| *ANWESHA DHOTE* | *[QR & Stole System Integration]* | [@add-handle](#) | [Add profile](#) |
+| *GAURI JADHAV* | *[Template design, Content Research]* | [@add-handle](#) | [Add profile](#) |
+| *SAUMYA SINHA* | *[Research, UX & Pitch]* | [@add-handle](#) | [Add profile](#) |
+| *SHIKHA KHUSHWAHA* | *[Staff & Emergency Dashboards]* | [@add-handle](#) | [Add profile](#) |
+| *DIPIKA ANAND* | *[Research and PPT ]* | [@add-handle](#) | [Add profile](#) |
 
 ## 🤝 Contributing
 

@@ -29,8 +29,6 @@ AI-powered pilgrimage safety platform for Gujarat's four-temple circuit. Real-ti
 
 <br/>
 
-> **📌 Before you publish this:** swap every `#` demo/video/deck badge link and every `yourusername/trinetra` path for your real ones, drop real screenshots into [Screenshots](#-screenshots), fill in your [Team](#-team) table, and confirm the [License](#-license) matches what your team actually wants.
-
 ---
 
 ## 📑 Table of Contents
@@ -96,7 +94,7 @@ Pilgrims visiting Somnath, Dwarka, Ambaji, and Pavagadh overwhelmingly travel th
 - Known high-surge festival dates aren't flagged to staff or emergency teams in advance
 - Older "proof of visit" mechanics (physical stamps, per-person tokens) don't scale affordably across four separately-run temple trusts
 
-## 🔍 Why These Problems Are Genuine (Not Assumed)
+## 🔍 Why These Problems Are Genuine 
 
 Worth being ready to defend: this problem doesn't require professional market research or insider government data to validate. It's public record, and any team — at any experience level — can verify it with an afternoon of searching.
 
@@ -133,20 +131,20 @@ We're building five connected pieces:
 
 ```mermaid
 flowchart TB
-    subgraph PIL["🙏 Pilgrim-Facing"]
+    subgraph PIL[" Pilgrim-Facing"]
         A["Pilgrim Booking App"]
     end
-    subgraph OPS["🧑‍💼 Operations"]
+    subgraph OPS[" Operations"]
         B["Staff Dashboard"]
         C["Emergency / Support Dashboard"]
     end
-    subgraph CORE["⚙️ Core Platform"]
+    subgraph CORE[" Core Platform"]
         D["Booking & Conflict Engine"]
         E["QR Issue / Scan Service"]
         F["LIF Surge Detection Module"]
         G["Festival Calendar Engine"]
     end
-    subgraph DATA["🗄️ Firebase Backend"]
+    subgraph DATA[" Firebase Backend"]
         H[("Firestore Database")]
         I[("Realtime Database")]
         J["Cloud Functions"]
@@ -644,7 +642,7 @@ Licensed under the **MIT License** — see [`LICENSE`](./LICENSE) for details. *
 
 ## 📬 Contact & Support
 
-For questions, open a [GitHub Issue](../../issues) or reach the team at *[add-contact-email]*.
+For questions, open a [GitHub Issue](https://github.com/caliancodess20) or reach the team at *[chanekar.25bai10603@gmail.com]*.
 
 ---
 

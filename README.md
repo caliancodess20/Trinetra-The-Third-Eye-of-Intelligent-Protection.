@@ -234,60 +234,6 @@ A pilgrim plans their whole circuit up front. The app rejects impossible combina
 
 *(Update this table if your team's actual implementation differs.)*
 
-## 📁 Folder Structure
-
-```
-trinetra/
-├── public/
-│   ├── index.html
-│   └── assets/
-│       ├── images/
-│       └── icons/
-├── src/
-│   ├── apps/
-│   │   ├── pilgrim/                # Booking + circuit planner
-│   │   │   ├── components/
-│   │   │   ├── pages/
-│   │   │   └── index.js
-│   │   ├── staff/                  # Crowd status + QR scan console
-│   │   │   ├── components/
-│   │   │   ├── pages/
-│   │   │   └── index.js
-│   │   └── emergency/              # Combined 4-temple emergency view
-│   │       ├── components/
-│   │       └── index.js
-│   ├── shared/
-│   │   ├── firebase/
-│   │   │   ├── config.js
-│   │   │   └── firestore.rules
-│   │   ├── qr/
-│   │   │   ├── generateStoleQR.js
-│   │   │   └── scanStoleQR.js
-│   │   ├── surge/
-│   │   │   └── lifSurgeModel.js     # Leaky-integrate-and-fire surge detector
-│   │   ├── travel/
-│   │   │   └── conflictChecker.js   # Static travel-time conflict logic
-│   │   └── festivalCalendar/
-│   │       └── festivalEvents.json
-│   └── styles/
-├── functions/                       # Firebase Cloud Functions
-│   ├── bookings/
-│   │   └── validateBooking.js
-│   ├── stole/
-│   │   ├── issueStole.js
-│   │   ├── scanStole.js
-│   │   └── returnStole.js
-│   └── index.js
-├── docs/
-│   ├── pitch/
-│   │   └── Trinetra_Final_Pitch.pdf
-│   └── screenshots/
-├── .env.example
-├── firebase.json
-├── firestore.rules
-├── package.json
-└── README.md
-```
 
 ## 🚀 Getting Started
 
@@ -323,31 +269,7 @@ firebase emulators:start
 npm run dev
 ```
 
-### Docker Setup (optional)
-If you'd rather run everything in containers for local dev consistency:
 
-```yaml
-version: "3.9"
-services:
-  app:
-    image: node:18-alpine
-    working_dir: /app
-    volumes:
-      - .:/app
-    command: sh -c "npm install && npm run dev"
-    ports:
-      - "3000:3000"
-  firebase-emulator:
-    image: node:18-alpine
-    working_dir: /app
-    volumes:
-      - .:/app
-    command: sh -c "npm install -g firebase-tools && firebase emulators:start"
-    ports:
-      - "4000:4000"
-      - "8080:8080"
-      - "9099:9099"
-```
 
 ## 📸 Screenshots
 
@@ -359,13 +281,6 @@ services:
 |---|---|
 | ![Emergency dashboard](https://placehold.co/500x300?text=Emergency+Dashboard) | ![Stole prototype](https://placehold.co/500x300?text=Bandhani+Stole+%2B+QR) |
 
-*(Replace these placeholders with real screenshots before submission.)*
-
-## 🎬 Demo GIF
-
-![Demo GIF placeholder](https://placehold.co/800x400?text=Demo+GIF+Coming+Soon)
-
-*(Record a short walkthrough — booking a circuit, scanning the stole QR, and the staff dashboard updating live — and drop it in here.)*
 
 ## 📡 API Documentation
 
@@ -597,35 +512,12 @@ We're not claiming all five are equally strong; SDG 3 and SDG 11 are the ones we
 | Saumya Sinha | 25BAI11388 | Research, UX & Pitch | [@saumya25bai11388-sys](https://github.com/saumya25bai11388-sys) | [Profile](https://www.linkedin.com/in/saumya-sinha-3bb4933ba) |
 | Shikha Khushwaha | 25BCE11243 | Staff & Emergency Dashboards | [@ShikhaKushwaha0005](https://github.com/ShikhaKushwaha0005) | [Profile](https://www.linkedin.com/in/shikha-kushwaha-a71977391/) |
 | Dipika Anand | 25BCE10703 | Research and PPT | [@DipikaAnand8](https://github.com/DipikaAnand8) | [Profile](https://www.linkedin.com/in/dipika-anand-b98316396/) |
-## 🤝 Contributing
-
-1. Fork the repo and create a branch: `git checkout -b feature/your-feature`
-2. Commit using [Conventional Commits](https://www.conventionalcommits.org/): `feat: add stole return flow`
-3. Push and open a pull request describing what changed and why
-4. Keep PRs scoped — one feature or fix per PR is easier to review under hackathon time pressure
-
-## 🧹 Code Style
-
-- ESLint + Prettier for JavaScript formatting and linting
-- Descriptive function names over comments where possible (`validateBookingConflict`, not `checkStuff`)
-- Firebase Cloud Functions grouped by domain (`bookings/`, `stole/`) rather than one flat file
-
 ## 🧪 Testing
 
 - Manual test cases for booking-conflict logic (valid circuit, impossible circuit, edge-case timing)
 - Round-trip test for the stole lifecycle: issue → scan → scan → scan → return
 - Manual threshold simulation for the surge-detection module against expected scenarios
 - Automated test suite (Jest) is on the roadmap — not yet built for this hackathon-scale prototype
-
-## ☁️ Deployment
-
-```bash
-firebase login
-firebase use --add
-firebase deploy
-```
-
-For CI/CD, a simple GitHub Actions workflow can run `npm test` and `firebase deploy` on merges to `main` — add one under `.github/workflows/deploy.yml` once your test suite exists.
 
 ## 📜 License
 
@@ -641,7 +533,7 @@ Licensed under the **MIT License** — see [`LICENSE`](./LICENSE) for details. *
 
 ## 📬 Contact & Support
 
-For questions, open a [GitHub Issue](https://github.com/caliancodess20) or reach the team at *[chanekar.25bai10603@gmail.com]*.
+For questions, open a [GitHub Issue](https://github.com/caliancodess20) or reach the team at *[chanekar.25bai10603@vitbhopal.ac.in]*.
 
 ---
 

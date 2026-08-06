@@ -20,11 +20,9 @@ AI-powered pilgrimage safety platform for Gujarat's four-temple circuit. Real-ti
 
 <br/>
 
-[![Live Demo](https://img.shields.io/badge/🔗_Live_Demo-Visit_App-4285F4?style=for-the-badge)](#)
-[![Demo Video](https://img.shields.io/badge/▶_Demo_Video-Watch-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](#)
 [![Pitch Deck](https://img.shields.io/badge/📊_Pitch_Deck-View-F2994A?style=for-the-badge)](#)
 [![Repo](https://img.shields.io/badge/⭐_Star_this-Repo-181717?style=for-the-badge&logo=github&logoColor=white)](#)
-![Trinetra dashboard — today across the circuit](docs/screenshots/dashboard-overview.png)
+![Trinetra dashboard — today across the circuit](screenshots/dashboard-overview.png)
 *The Dashboard — pilgrims on circuit, active SOS, average safety score, and crowd pressure at all four temples, in one glance.*
 </div>
 <br/>
@@ -124,7 +122,7 @@ We're building five connected pieces:
 
 | 1. Booking app | 2. Stole + QR | 3. Combined dashboard view | 4. Surge alert |
 |---|---|---|---|
-| ![Booking app](docs/screenshots/journey-planner-select-temples.png) | ![Stole + QR](docs/screenshots/bandhani-stole-qr.png) | ![Combined dashboard](docs/screenshots/emergency-combined-view.png) | ![Surge alert](docs/screenshots/ai-surge-intelligence.png) |
+| ![Booking app](screenshots/journey-planner-select-temples.png) | ![Stole + QR](screenshots/bandhani-stole-qr.png) | ![Combined dashboard](screenshots/emergency-combined-view.png) | ![Surge alert](screenshots/ai-surge-intelligence.png) |
 
 *(Piece 5, the festival calendar layer, doesn't have a built screen yet.)*
 
@@ -213,7 +211,7 @@ A pilgrim plans their whole circuit up front. The app rejects impossible combina
 - QR tags bound to a stole ID, not to personal pilgrim data
 
 #### 📊 Analytics
-![Crowd snapshot across all four temples, recent activity feed](docs/screenshots/dashboard-overview.png)
+![Crowd snapshot across all four temples, recent activity feed](screenshots/dashboard-overview.png)
 - Live per-temple occupancy and surge-level view
 - Combined four-temple status for emergency/support teams
 - Historical status-update logs for post-event review
@@ -221,7 +219,7 @@ A pilgrim plans their whole circuit up front. The app rejects impossible combina
 #### 🛠️ Admin / Staff
 | QR Scan Console | Stole → Pilgrim Lookup |
 |---|---|
-| ![Staff QR scan console](docs/screenshots/staff-scan-console.png) | ![Stole ID linked to pilgrim record](docs/screenshots/bandhani-stole-pilgrim-list.png) |
+| ![Staff QR scan console](screenshots/staff-scan-console.png) | ![Stole ID linked to pilgrim record](screenshots/bandhani-stole-pilgrim-list.png) |
 - One-tap crowd status updates
 - QR scan console for stole issue / scan / return
 - Stole inventory tracking (in circulation / available / returned)
@@ -286,39 +284,39 @@ npm run dev
 
 | Dashboard (Overview) |
 |---|
-| ![Dashboard overview](docs/screenshots/dashboard-overview.png) |
+| ![Dashboard overview](screenshots/dashboard-overview.png) |
 
 <details>
 <summary>Pilgrim Booking Flow — all 3 steps</summary>
 
 | 1. Select temples | 2. Choose dates (conflict check) | 3. Review & confirm |
 |---|---|---|
-| ![Select temples](docs/screenshots/journey-planner-select-temples.png) | ![Choose dates](docs/screenshots/journey-planner-choose-dates.png) | ![Review & confirm](docs/screenshots/journey-planner-review-confirm.png) |
+| ![Select temples](screenshots/journey-planner-select-temples.png) | ![Choose dates](screenshots/journey-planner-choose-dates.png) | ![Review & confirm](screenshots/journey-planner-review-confirm.png) |
 
 </details>
 
 | AI Surge Intelligence |
 |---|
-| ![AI Surge Intelligence](docs/screenshots/ai-surge-intelligence.png) |
+| ![AI Surge Intelligence](screenshots/ai-surge-intelligence.png) |
 
 | Bandhani Stole + QR Prototype |
 |---|
-| ![Stole prototype](docs/screenshots/bandhani-stole-qr.png) |
+| ![Stole prototype](screenshots/bandhani-stole-qr.png) |
 
 <details>
 <summary>Stole → pilgrim lookup</summary>
 
-![Stole QR pilgrim list](docs/screenshots/bandhani-stole-pilgrim-list.png)
+![Stole QR pilgrim list](screenshots/bandhani-stole-pilgrim-list.png)
 
 </details>
 
 | Staff QR Scan Console |
 |---|
-| ![Staff QR scan console](docs/screenshots/staff-scan-console.png) |
+| ![Staff QR scan console](screenshots/staff-scan-console.png) |
 
 | Emergency Combined View |
 |---|
-| ![Emergency dashboard](docs/screenshots/emergency-combined-view.png) |
+| ![Emergency dashboard](screenshots/emergency-combined-view.png) |
 
 ## 📡 API Documentation
 
@@ -346,7 +344,7 @@ npm run dev
 
 |---|---|---|
 
-| ![Select temples](docs/screenshots/journey-planner-select-temples.png) | ![Travel-time conflict detected](docs/screenshots/journey-planner-choose-dates.png) | ![Review and confirm booking](docs/screenshots/journey-planner-review-confirm.png) |
+| ![Select temples](screenshots/journey-planner-select-temples.png) | ![Travel-time conflict detected](screenshots/journey-planner-choose-dates.png) | ![Review and confirm booking](screenshots/journey-planner-review-confirm.png) |
 
 
 
@@ -358,7 +356,7 @@ The middle screenshot is the `CK{"Travel-Time Conflict?"}` branch from the diagr
 
 |---|
 
-| ![Bandhani stole and QR tag](docs/screenshots/bandhani-stole-qr.png) |
+| ![Bandhani stole and QR tag](screenshots/bandhani-stole-qr.png) |
 **Booking + stole lifecycle:**
 
 ```mermaid

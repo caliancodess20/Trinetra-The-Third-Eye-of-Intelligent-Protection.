@@ -312,7 +312,7 @@ npm run dev
 
 | Staff QR Scan Console |
 |---|
-| ![Staff QR scan console](screenshots/staff-qr-scan-console.png) |
+| ![Staff QR scan console](screenshots/staff-scan-qr-console.png) |
 
 | Emergency Combined View |
 |---|

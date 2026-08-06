@@ -193,7 +193,7 @@ A pilgrim plans their whole circuit up front. The app rejects impossible combina
 ## ✨ Features
 
 #### 🧠 Smart / Surge Features
-![AI Surge Intelligence — hourly forecast, predicted peak, and lead time to act](docs/screenshots/ai-surge-intelligence.png)
+![AI Surge Intelligence — hourly forecast, predicted peak, and lead time to act](screenshots/ai-surge-intelligence.png)
 *Per-temple hourly forecast, predicted peak, lead time to act, and a model-confidence score.*
 - Real-time surge alert based on rate-of-buildup, not just raw headcount
 - Festival calendar layer flagging known high-risk dates in advance
@@ -219,7 +219,7 @@ A pilgrim plans their whole circuit up front. The app rejects impossible combina
 #### 🛠️ Admin / Staff
 | QR Scan Console | Stole → Pilgrim Lookup |
 |---|---|
-| ![Staff QR scan console](screenshots/staff-scan-console.png) | ![Stole ID linked to pilgrim record](screenshots/bandhani-stole-pilgrim-list.png) |
+| ![Staff QR scan console](screenshots/staff-scan-console.png) | ![Stole ID linked to pilgrim record](screenshots/Bandhani-stole-pilgrim-list.png) |
 - One-tap crowd status updates
 - QR scan console for stole issue / scan / return
 - Stole inventory tracking (in circulation / available / returned)

@@ -219,7 +219,7 @@ A pilgrim plans their whole circuit up front. The app rejects impossible combina
 #### 🛠️ Admin / Staff
 | QR Scan Console | Stole → Pilgrim Lookup |
 |---|---|
-| ![Staff QR scan console](screenshots/staff-scan-console.png) | ![Stole ID linked to pilgrim record](screenshots/Bandhani-stole-pilgrim-list.png) |
+| ![Staff QR scan console](screenshots/staff-scan-qr-console.png)| ![Stole ID linked to pilgrim record](screenshots/bandhani-stole-pilgrimage-list.png) |
 - One-tap crowd status updates
 - QR scan console for stole issue / scan / return
 - Stole inventory tracking (in circulation / available / returned)

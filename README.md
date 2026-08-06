@@ -24,9 +24,9 @@ AI-powered pilgrimage safety platform for Gujarat's four-temple circuit. Real-ti
 [![Demo Video](https://img.shields.io/badge/▶_Demo_Video-Watch-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](#)
 [![Pitch Deck](https://img.shields.io/badge/📊_Pitch_Deck-View-F2994A?style=for-the-badge)](#)
 [![Repo](https://img.shields.io/badge/⭐_Star_this-Repo-181717?style=for-the-badge&logo=github&logoColor=white)](#)
-
+![Trinetra dashboard — today across the circuit](docs/screenshots/dashboard-overview.png)
+*The Dashboard — pilgrims on circuit, active SOS, average safety score, and crowd pressure at all four temples, in one glance.*
 </div>
-
 <br/>
 
 ---
@@ -124,6 +124,13 @@ We're building five connected pieces:
 3. **Three role-based dashboards** — pilgrim (plan/book), staff (update crowd status, scan passes), and emergency/support (a combined view across all four temples).
 4. **A real-time surge alert** — a lightweight technique adapted from an earlier team project, *NeuralWatch*, that catches dangerously fast crowd buildup rather than just raw headcount.
 5. **A festival calendar layer** — known high-surge dates (Kartik Purnima, Navratri, Bhadra Purnima) flagged in advance so staff and emergency teams go in prepared.
+  **What that looks like, piece by piece:**
+
+| 1. Booking app | 2. Stole + QR | 3. Combined dashboard view | 4. Surge alert |
+|---|---|---|---|
+| ![Booking app](docs/screenshots/journey-planner-select-temples.png) | ![Stole + QR](docs/screenshots/bandhani-stole-qr.png) | ![Combined dashboard](docs/screenshots/emergency-combined-view.png) | ![Surge alert](docs/screenshots/ai-surge-intelligence.png) |
+
+*(Piece 5, the festival calendar layer, doesn't have a built screen yet.)*
 
 > **Scope, stated honestly:** the pilgrim + staff dashboards and the stole loaner system are our non-negotiable core. The emergency dashboard and surge model are being built if time allows — and presented as designed future capability otherwise. We'd rather be transparent about what's real than claim more than what's built.
 
@@ -192,6 +199,8 @@ A pilgrim plans their whole circuit up front. The app rejects impossible combina
 ## ✨ Features
 
 #### 🧠 Smart / Surge Features
+![AI Surge Intelligence — hourly forecast, predicted peak, and lead time to act](docs/screenshots/ai-surge-intelligence.png)
+*Per-temple hourly forecast, predicted peak, lead time to act, and a model-confidence score.*
 - Real-time surge alert based on rate-of-buildup, not just raw headcount
 - Festival calendar layer flagging known high-risk dates in advance
 
@@ -208,11 +217,15 @@ A pilgrim plans their whole circuit up front. The app rejects impossible combina
 - QR tags bound to a stole ID, not to personal pilgrim data
 
 #### 📊 Analytics
+![Crowd snapshot across all four temples, recent activity feed](docs/screenshots/dashboard-overview.png)
 - Live per-temple occupancy and surge-level view
 - Combined four-temple status for emergency/support teams
 - Historical status-update logs for post-event review
 
 #### 🛠️ Admin / Staff
+| QR Scan Console | Stole → Pilgrim Lookup |
+|---|---|
+| ![Staff QR scan console](docs/screenshots/staff-scan-console.png) | ![Stole ID linked to pilgrim record](docs/screenshots/bandhani-stole-pilgrim-list.png) |
 - One-tap crowd status updates
 - QR scan console for stole issue / scan / return
 - Stole inventory tracking (in circulation / available / returned)
@@ -273,14 +286,43 @@ npm run dev
 
 ## 📸 Screenshots
 
-| Pilgrim Booking Flow | Staff QR Scan Console |
-|---|---|
-| ![Pilgrim booking flow](https://placehold.co/500x300?text=Pilgrim+Booking+Flow) | ![Staff scan console](https://placehold.co/500x300?text=Staff+Scan+Console) |
+*In the order you'll actually navigate the app.*
 
-| Emergency Combined View | Bandhani Stole + QR Prototype |
-|---|---|
-| ![Emergency dashboard](https://placehold.co/500x300?text=Emergency+Dashboard) | ![Stole prototype](https://placehold.co/500x300?text=Bandhani+Stole+%2B+QR) |
+| Dashboard (Overview) |
+|---|
+| ![Dashboard overview](docs/screenshots/dashboard-overview.png) |
 
+<details>
+<summary>Pilgrim Booking Flow — all 3 steps</summary>
+
+| 1. Select temples | 2. Choose dates (conflict check) | 3. Review & confirm |
+|---|---|---|
+| ![Select temples](docs/screenshots/journey-planner-select-temples.png) | ![Choose dates](docs/screenshots/journey-planner-choose-dates.png) | ![Review & confirm](docs/screenshots/journey-planner-review-confirm.png) |
+
+</details>
+
+| AI Surge Intelligence |
+|---|
+| ![AI Surge Intelligence](docs/screenshots/ai-surge-intelligence.png) |
+
+| Bandhani Stole + QR Prototype |
+|---|
+| ![Stole prototype](docs/screenshots/bandhani-stole-qr.png) |
+
+<details>
+<summary>Stole → pilgrim lookup</summary>
+
+![Stole QR pilgrim list](docs/screenshots/bandhani-stole-pilgrim-list.png)
+
+</details>
+
+| Staff QR Scan Console |
+|---|
+| ![Staff QR scan console](docs/screenshots/staff-scan-console.png) |
+
+| Emergency Combined View |
+|---|
+| ![Emergency dashboard](docs/screenshots/emergency-combined-view.png) |
 
 ## 📡 API Documentation
 
@@ -300,7 +342,27 @@ npm run dev
   "issuedTempleId": "somnath"
 }
 ```
+**The same flow, in the actual app:**
 
+
+
+| Plan 4-Temple Circuit | Travel-Time Conflict? | Confirm Booking |
+
+|---|---|---|
+
+| ![Select temples](docs/screenshots/journey-planner-select-temples.png) | ![Travel-time conflict detected](docs/screenshots/journey-planner-choose-dates.png) | ![Review and confirm booking](docs/screenshots/journey-planner-review-confirm.png) |
+
+
+
+The middle screenshot is the `CK{"Travel-Time Conflict?"}` branch from the diagram above, caught live — Ambaji and Pavagadh booked the same day, flagged before confirmation is even possible.
+
+
+
+| Receive Bandhani Stole + QR Tag |
+
+|---|
+
+| ![Bandhani stole and QR tag](docs/screenshots/bandhani-stole-qr.png) |
 **Booking + stole lifecycle:**
 
 ```mermaid

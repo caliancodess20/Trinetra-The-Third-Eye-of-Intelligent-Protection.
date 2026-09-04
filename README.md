@@ -107,8 +107,6 @@ Worth being ready to defend: this problem doesn't require professional market re
 - Search "Somnath Dwarka Ambaji Pavagadh tour package" — established travel agencies already sell all four as one circuit, direct evidence pilgrims already travel this route together.
 - Search "temple stampede India" in any news archive — the timeline above surfaces in minutes, because it's public reporting, not proprietary research.
 
-If a judge or mentor asks *"how do you know this is real, not something you assumed?"* — the honest answer is that it isn't something the team found through special access. It's a pattern reported on for two decades, at exactly the kind of large, unregulated religious gathering these four temples already host every year.
-
 ## ✅ Our Solution
 
 We're building five connected pieces:

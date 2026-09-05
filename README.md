@@ -237,8 +237,6 @@ A pilgrim plans their whole circuit up front. The app rejects impossible combina
 | Hosting | Firebase Hosting | One-command deploy, free tier covers a hackathon build |
 | Surge detection | Custom LIF-inspired JS module | Lightweight, explainable, real-time — needs no training data |
 
-*(Update this table if your team's actual implementation differs.)*
-
 
 ## 🚀 Getting Started
 
@@ -278,7 +276,6 @@ npm run dev
 
 ## 📸 Screenshots
 
-*In the order you'll actually navigate the app.*
 
 | Dashboard (Overview) |
 |---|

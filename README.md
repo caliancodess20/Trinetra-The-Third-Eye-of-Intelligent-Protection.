@@ -574,7 +574,7 @@ We're not claiming all five are equally strong; SDG 3 and SDG 11 are the ones we
 
 Licensed under the **MIT License** — see [`LICENSE`](./LICENSE) for details. *(Update if your team has chosen a different license.)*
 
-## 🙏 Acknowledgements
+##  Acknowledgements
 
 - **Government of Gujarat**, for hosting Problem Statement `SVH26008`
 - The **Bandhani artisans** and the GI-tagged heritage craft tradition of Gujarat
